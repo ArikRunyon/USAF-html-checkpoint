@@ -1,0 +1,185 @@
+#navbar {
+    display: flex;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.navbarhead {
+    margin: 1%;
+    color: white;
+}
+
+.home {
+    align-self: center;
+    color: white;
+    text-decoration: none;   
+}
+
+.home:hover {
+    color: chartreuse;
+}
+
+.home:active  {
+    color: blueviolet;
+    border-color: blueviolet;
+}
+
+.login {
+    margin-left: 1%;
+    align-self: center;
+    color: white;
+    text-decoration: none;
+}
+
+.login:hover {
+    color: chartreuse;
+}
+
+.login:active  {
+    color: blueviolet;
+    border-color: blueviolet;
+}
+
+#searchform {
+    align-self: center;
+    margin-left: auto;
+    margin-top: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    width: 20rem;
+}
+
+#navsearch {
+    width: 65%;
+    height: 2.25rem;
+}
+
+#searchbutton {
+    color: cyan;
+    border-width: .1em;
+    background-color: black;
+    border-color: cyan;
+    width: 30%;
+    height: 2.5rem;
+}
+
+#searchbutton:hover {
+    color: chartreuse;
+    border-color: chartreuse;
+}
+
+#searchbutton:active {
+    color: blueviolet;
+    border-color: blueviolet;
+}
+
+body {
+    display: flex;
+    margin-top: 10em;
+    justify-content: center;
+    padding: 0;
+    margin-left: 0;
+    width: 100%;
+}
+
+#loginform {
+    width: 50em;
+    flex-direction: column;
+}
+
+#loginheader {
+    text-align: center;
+}
+
+#email {
+    width: 100%;
+    padding: .5em;
+}
+
+#password {
+    width: 100%;
+    padding: .5em;
+}
+
+#loginbutton {
+    margin-top: 1em;
+    padding: .5em;
+    width: 5em;
+    color: white;
+    background-color: rgb(40, 146, 245);
+    border: 0;
+}
+
+#moviewrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 3em;
+    width: 80%;
+}
+
+img {
+    display: block;
+    max-width: 75%;
+    height: auto;
+}
+
+.moviecover {
+    text-align: center;
+    flex-basis: 24%;
+}
+
+#resultsbar {
+    background-color: darkslategray;
+    color: orange;
+    width: 100%;
+    padding: 1em;
+}
+
+#resultbody {
+    display: flex;
+    margin-top: 5em;
+    justify-content: start;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    row-gap: 1em;
+}
+
+.movieinfo {
+    margin-left: 1em;
+}
+
+.movieinfotitle {
+    margin: 0;
+}
+
+.commentform {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.leavecomment {
+    margin-left: 1em;
+}
+.moviecomment {
+    margin-left: 1em;
+    width: 30em;
+}
+
+.commentbutton {
+    margin-top: 1em;
+    margin-left: 1em;
+    padding: .5em;
+    width: 5em;
+    color: white;
+    background-color: rgb(40, 146, 245);
+    border: 0;
+}
